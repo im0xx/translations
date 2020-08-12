@@ -1,22 +1,22 @@
 # GENERIC
-generic.failed: "Failed"
-generic.success: "Success"
-generic.error: "Error"
-generic.thank-you: "Thank you"
+generic.failed: "فشل"
+generic.success: "تم بنجاح"
+generic.error: "خطأ"
+generic.thank-you: "شكراً لك"
 
 # COMMAND MANAGER
-cmdm.prefix: "The prefix for this server is `{}`."
-cmdm.permission-denied: "You are not allowed to run the command `{}`."  # {command}
-cmdm.invalid-usage: "Invalid usage"
-cmdm.invalid-usage-detail: "Use: `{} {}`"  # {command}, {usage}
-cmdm.error: "Something went wrong with this command. This issue has been reported."
-cmdm.maintenance: "Cannot run command: bot is in maintenance mode."
+cmdm.prefix: "الاختصار في هذا الخادم هو `{}`."
+cmdm.permission-denied: "ليس مسموحاً تشغيل هذا الامر `{}`."  # {command}
+cmdm.invalid-usage: "استخدام غير صالح"
+cmdm.invalid-usage-detail: "استعمال: `{} {}`"  # {command}, {usage}
+cmdm.error: "حدث خطأ ما في هذا الامر. تم الأبلاغ عن الخطأ."
+cmdm.maintenance: "لا يمكن تشغيل الامر: البوت في وضع الصيانة."
 
-cmdm.bad-setup: "You might be having issues with the `{}` command."  # {command}
-cmdm.bad-setup.detail: "This is most likely because the bot is missing the send messages or embed links permission in the channel you are using the command in. Set the bot's permissions correctly and try again."
-cmdm.bad-setup.extra: "If you need extra help, join the support server at {}."  # {invite}
+cmdm.bad-setup: "قد تواجه مشكلات مع `{}` command."  # {command}
+cmdm.bad-setup.detail: "هذا على الأرجح لأن الروبوت يفتقد إذن إرسال الرسائل أو تضمين الروابط في القناة التي تستخدم الأمر فيها. قم بتعيين أذونات الروبوت بشكل صحيح وحاول مرة أخرى."
+cmdm.bad-setup.extra: "هل تحتاج للمساعدة؟, انضم إلى خادم الدعم في {}."  # {invite}
 
-cmdm.perm-error.title: "Insufficient permissions"
+cmdm.perm-error.title: "اذونات غير كافية"
 cmdm.perm-error.detail: "The bot is missing the following permission in this channel: {}. This permission is required to run the command `{}`."  # {perm}, {command}
 cmdm.perm-error.detail-plural: "The bot is missing the following permissions in this channel: {}. These permissions are required to run the command `{}`."  # {perms}, {command}
 cmdm.perm-error.support: "Need help with permissions?"
